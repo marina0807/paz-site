@@ -1,19 +1,28 @@
 body{
     direction: rtl;
     text-align: right;
+   /* margin-top:0;*/
 }
 .menu{
         width:1500px ;
-        height: 125px;
+        height: 200px;
         background-color: gray;
+        position: relative;
     }   
 .nav1>ul>li{
     list-style-type: none;
     display:inline;
-    margin-right: 125px;
+    padding: 40px;
+    border-left: 1px solid lightgrey;
+}
+.nav1>ul>li:last-child{
+    border-left: none;
 }
 .nav1>ul{
-    padding-top: 70px; 
+    padding-top: 50px; 
+}
+.imghome:first-child{
+    margin-right:125px;
 }
 .nav1>ul>li>a,.menutop .contentmenu>li>a{
     text-decoration: none;
@@ -21,7 +30,8 @@ body{
 }
 .menutop .contentmenu li{
     list-style-type: none;
-    width: 100px;
+   /* width: 150px;
+    height:50px ;*/
 }
 .menutop{
     position: relative;
@@ -36,7 +46,7 @@ body{
   }
   .logo{
       position: absolute;
-      top:60px;
-      width: 50px;
-      padding:25px;
+      top:30px;
   }
+  /*----------------------------------------------------------------------------------------------------------------*/
+  

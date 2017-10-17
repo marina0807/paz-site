@@ -1,0 +1,42 @@
+body{
+    direction: rtl;
+    text-align: right;
+}
+.menu{
+        width:1500px ;
+        height: 125px;
+        background-color: gray;
+    }   
+.nav1>ul>li{
+    list-style-type: none;
+    display:inline;
+    margin-right: 125px;
+}
+.nav1>ul{
+    padding-top: 70px; 
+}
+.nav1>ul>li>a,.menutop .contentmenu>li>a{
+    text-decoration: none;
+    color:white;
+}
+.menutop .contentmenu li{
+    list-style-type: none;
+    width: 100px;
+}
+.menutop{
+    position: relative;
+}
+.menutop:hover .contentmenu {
+    display: block;
+  }
+  .contentmenu{
+    display:none;
+    position:absolute;
+    right:0;
+  }
+  .logo{
+      position: absolute;
+      top:60px;
+      width: 50px;
+      padding:25px;
+  }

@@ -55,6 +55,8 @@ body{
   /*----------------------------------------------------------------------------------------------------------------*/
   .column{
       float:right;
+      width:33.33%;
+      position: relative;
   }
   .img1 img{
     position:absolute;  
@@ -141,13 +143,51 @@ width:233px;
     display: table;
     clear: both;
   }
-  .column img{
+  .column .row1{
       width: 270px;
       height:400px;
       padding:30px;
       z-index:5; 
   }         
- .row{
-    margin:auto;
-  }
   
+  .column1 {
+      float: right;
+      width: 33.33%;
+      height: 100px;
+      position: relative;
+  }
+
+  .img11{
+      position:absolute;
+  }
+  .img12{
+      position: absolute;
+      right:20px;
+      top:70px;
+  }
+  .r1{
+      position: absolute;
+      top:0;
+      right:20px;
+  }
+  .c1{
+      position:absolute;
+      top:190px;
+      right:150px;
+  }
+  .nav2{
+      position:absolute;
+      top:70px;
+  }
+  .img121{
+      position: absolute; 
+      right:150px; 
+      top:30px;  
+  }
+  footer{
+      position:fixed;
+  }
+ footer nav ul li{
+      display:inline;
+  }
+  .n

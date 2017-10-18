@@ -216,15 +216,19 @@ width:233px;
       bottom: 5px;
       right: 5px;
   }
-
+.im1{
+    padding:15px;
+}
   .textarea h4 {
       margin: 0;
       padding: 0;
       font-size: 14px;
+      color:white;
   }
 
   .textarea p {
       font-size: 13px;
+      color:white;
   }
 
   .textarea a {
@@ -232,4 +236,5 @@ width:233px;
       top: -20px;
       font-size: 13px;
       float: left;
+      color:white;
   }

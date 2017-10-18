@@ -213,8 +213,8 @@ width:233px;
       height: 97px;
       border-bottom-right-radius: 20px;
       position: absolute;
-      bottom: 5px;
-      right: 5px;
+      bottom: -10px;
+      right: 14px;
   }
 .im1{
     padding:15px;

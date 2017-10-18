@@ -1,19 +1,21 @@
 body{
     direction: rtl;
     text-align: right;
-    margin-top:0;
+    margin:0;
     padding:0;
+    width:1200px;
 }
 .menu{
-        width:1500px ;
+       /* width:1500px ;*/
         height: 100px;
         background-color: gray;
         position: relative;
+        padding:10px;
     }   
 .nav1>ul>li{
     list-style-type: none;
     display:inline;
-    padding: 40px;
+    padding: 20px;
     border-left: 1px solid lightgrey;
     z-index: 100;
 } 
@@ -54,25 +56,28 @@ body{
       top:30px;
   }
   /*----------------------------------------------------------------------------------------------------------------*/
+
+  /*
   .column{
       float:right;
       width:33.33%;
       position: relative;
   }
-  .img1 img{
-    position:absolute;  
-    top:450px;
-    right:40px;
-    width:240px; 
+  .im1{
+      position: absolute;
+  }
+  .im2{
+    position:absolute; 
+    top:20px; 
 }
-.txt1 h4{
+.c3{
     position: absolute;
     top:435px;
     right:50px;
     width:235px;
     color:white;
 }
-.txt1 p{
+.r2{
     position:absolute;
     top:455px;
     right:50px;
@@ -80,7 +85,7 @@ body{
     font-size:15px;
     color:white;
 }
-.txt1 a{
+.a1{
     position: absolute;
     top:520px;
     right:195px;
@@ -138,26 +143,29 @@ width:233px;
     right:845px;
     color:white;
 }
-
+*/
   .row::after {
     content: "";
     display: table;
     clear: both;
   }
+  /*
   .column .row1{
       width: 270px;
       height:400px;
       padding:30px;
       z-index:5; 
-  }         
+  } 
+  */        
   
   .column1 {
       float: right;
       width: 33.33%;
       height: 100px;
       position: relative;
+      height: 355px;
   }
-
+/*
   .img11{
       position:absolute;
   }
@@ -176,6 +184,7 @@ width:233px;
       top:190px;
       right:150px;
   }
+  
   .nav2{
       position:absolute;
       top:70px;
@@ -196,4 +205,31 @@ width:233px;
      
   }
 
-  
+  */
+
+  .textarea {
+      background-color: rgba(130, 130, 130, 0.8);
+      width: 248px;
+      height: 97px;
+      border-bottom-right-radius: 20px;
+      position: absolute;
+      bottom: 5px;
+      right: 5px;
+  }
+
+  .textarea h4 {
+      margin: 0;
+      padding: 0;
+      font-size: 14px;
+  }
+
+  .textarea p {
+      font-size: 13px;
+  }
+
+  .textarea a {
+      position: relative;
+      top: -20px;
+      font-size: 13px;
+      float: left;
+  }

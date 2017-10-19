@@ -33,6 +33,12 @@ body{
     text-decoration: none;
     color:white;
 }
+.nav1 ul li a:hover{
+   color:blue;
+}
+.menutop>ul>li>a:hover{
+    color:blue;
+}
 .menutop .contentmenu li{
     list-style-type: none;
     width: 150px;
@@ -95,6 +101,14 @@ body{
       position:absolute;
       top:90px;
       right:45px;
+      font-size:13px;
+      color:gray;
+  }
+  .nav2>ul>li{
+    list-style-type: none;
+  }
+  .nav2>ul>li>a{
+      color:gray;
   }
   .img121{
       position: absolute; 
@@ -116,8 +130,10 @@ body{
  footer .nav-f ul li{
       display:inline;
       padding:5px;
-      font-size: 13px;
-      
+      font-size: 13px;     
+  }
+  .nav-f ul li a:hover{
+      color:blue;
   }
  footer .nav-f ul .rd a{
       color:red;
@@ -125,14 +141,13 @@ body{
   .nav-f ul li> a{
       font-size: 13px;
       color: white;
-    border-left: 2px solid white;
-    text-decoration: none;
+      border-left: 2px solid white;
+      text-decoration: none;
   }
   
- footer .nav-f ul li>a:last-child{
+ footer >.nav-f> ul >li>a:last-child{
       border-left:none;
  }
-
 
   .textarea {
       background-color: rgba(130, 130, 130, 0.8);
